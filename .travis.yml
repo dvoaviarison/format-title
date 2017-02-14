@@ -1,0 +1,10 @@
+language: node_js
+node-js:
+  - "stable"
+
+deploy:
+  provider: npm
+  email: daniel.voaviarison@gmail.com
+  api_key: b3cef74d-48b7-48c9-aada-e4a4035c7e53
+  on:
+    tags: true
