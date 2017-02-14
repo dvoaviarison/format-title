@@ -7,4 +7,4 @@ deploy:
   email: daniel.voaviarison@gmail.com
   api_key: $NPM_TOKEN
   on:
-    tags: true
+    all_branches: true
