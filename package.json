@@ -1,0 +1,29 @@
+{
+  "name": "format-title",
+  "version": "1.0.0",
+  "description": "Manipulate strings to give you the format you need: capitalized/non-capitalized per word or first word only etc...",
+  "main": "index.js",
+  "scripts": {
+    "test": "markdown-code-blocks -t javascript < README.md | node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dvoaviarison/format-title.git"
+  },
+  "keywords": [
+    "title",
+    "uppercase",
+    "lowercase",
+    "string",
+    "capitalize"
+  ],
+  "author": "Daniel Voaviarison",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/dvoaviarison/format-title/issues"
+  },
+  "homepage": "https://github.com/dvoaviarison/format-title#readme",
+  "dependencies": {
+    "markdown-code-blocks": "0.0.1"
+  }
+}
