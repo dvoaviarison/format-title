@@ -5,6 +5,6 @@ node-js:
 deploy:
   provider: npm
   email: daniel.voaviarison@gmail.com
-  api_key: b3cef74d-48b7-48c9-aada-e4a4035c7e53
+  api_key: $NPM_TOKEN
   on:
     tags: true
