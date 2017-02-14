@@ -4,10 +4,10 @@ node-js:
 
 deploy:
   provider: npm
-  email: daniel.voaviarison@gmail.com
+  email: $NPM_MAIL
   api_key: $NPM_TOKEN
   on:
     all_branches: true
 
 notifications:
-  slack: voaviarison:gKr786oxlBaGN3LrS1aXcUB0
+  slack: $SLACK_TOKEN
