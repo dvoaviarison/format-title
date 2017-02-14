@@ -1,4 +1,7 @@
 # format-title
+
+[![Build Status](https://travis-ci.org/dvoaviarison/format-title.svg?branch=master)](https://travis-ci.org/dvoaviarison/format-title)
+
 Manipulate strings to give you the title format you need: capitalized/non-capitalized per word etc...
 
 ## API List
