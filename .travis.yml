@@ -8,3 +8,6 @@ deploy:
   api_key: $NPM_TOKEN
   on:
     all_branches: true
+
+notifications:
+  slack: voaviarison:gKr786oxlBaGN3LrS1aXcUB0
