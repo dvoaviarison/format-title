@@ -13,6 +13,12 @@ module.exports.capWords = function (string) {
   });
 }
 
+module.exports.capCamelize = function (string) {
+  return string.replace(/\W+(.)/g, function(m, chr) {
+      return chr.toUpperCase();
+  });
+}
+
 // TO LOWER CASE
 module.exports.lowAll = function (string) {
   return string.toLowerCase();
@@ -26,4 +32,12 @@ module.exports.lowWords = function (string) {
   return string.replace(/(^|[^a-zA-Z\u00C0-\u017F'])([a-zA-Z\u00C0-\u017F])/g, function (m) {
     return m.toLowerCase();
   });
+}
+
+module.exports.lowCamelize = function (string) {
+  var camelize = string.replace(/\W+(.)/g, function(m, chr) {
+      return chr.toUpperCase();
+  });
+
+  return camelize.charAt(0).toLowerCase() + camelize.substring(1);
 }

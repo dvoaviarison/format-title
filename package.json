@@ -1,10 +1,10 @@
 {
   "name": "format-title",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Manipulate strings to give you the format you need: capitalized/non-capitalized per word or first word only etc...",
   "main": "index.js",
   "scripts": {
-    "test": "markdown-code-blocks -t javascript < README.md | node"
+    "try": "node try"
   },
   "repository": {
     "type": "git",

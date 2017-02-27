@@ -9,9 +9,11 @@ Manipulate strings to give you the title format you need: capitalized/non-capita
 capWords(string)
 capFirstWord(string)
 capAll(string)
+capCamelize(string)
 lowWords(string)
 lowFirstWord(string)
 lowAll(string)
+lowCamelize(string)
 ```
 
 ## Example
