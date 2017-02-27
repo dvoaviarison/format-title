@@ -14,9 +14,11 @@ module.exports.capWords = function (string) {
 }
 
 module.exports.capCamelize = function (string) {
-  return string.replace(/\W+(.)/g, function(m, chr) {
+  var camelize = string.replace(/\W+(.)/g, function(m, chr) {
       return chr.toUpperCase();
   });
+
+  return camelize.charAt(0).toUpperCase() + camelize.substring(1);
 }
 
 // TO LOWER CASE
@@ -35,9 +37,7 @@ module.exports.lowWords = function (string) {
 }
 
 module.exports.lowCamelize = function (string) {
-  var camelize = string.replace(/\W+(.)/g, function(m, chr) {
+  return string.replace(/\W+(.)/g, function(m, chr) {
       return chr.toUpperCase();
   });
-
-  return camelize.charAt(0).toLowerCase() + camelize.substring(1);
 }
