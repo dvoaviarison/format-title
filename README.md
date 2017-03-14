@@ -4,6 +4,9 @@
 
 Manipulate strings to give you the title format you need: capitalized/non-capitalized per word etc...
 
+## Try me
+You can try and see the result realtime [HERE](https://runkit.com/npm/format-title)
+
 ## API List
 ```java
 capWords(string)
